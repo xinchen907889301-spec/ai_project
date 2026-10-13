@@ -1,0 +1,580 @@
+{
+  "spec_version": "0.1.0",
+  "game": "金铲铲之战",
+  "default_goal": "steady_rank",
+  "status": "draft_for_review_not_executable",
+  "rule_language": "human_readable_conditions_not_an_executable_DSL",
+  "knowledge_policy": {
+    "patch_match_required": true,
+    "unknown_is_not_true": true,
+    "version_facts_verified": false
+  },
+  "rules": [
+    {
+      "id": "G01",
+      "title": "版本与数据一致性",
+      "priority": 100,
+      "provenance": "editorial_product_guardrail",
+      "required_inputs": [
+        "version",
+        "knowledge_version"
+      ],
+      "conditions": [
+        "game、mode、season、patch与知识记录匹配"
+      ],
+      "actions": [
+        "匹配时才允许使用具体版本阵容与机制",
+        "不匹配时仅提供共性检查并请求确认"
+      ],
+      "exceptions": [
+        "未知不视为匹配"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        3
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "G02",
+      "title": "关键视觉识别确认",
+      "priority": 99,
+      "provenance": "editorial_product_guardrail",
+      "required_inputs": [
+        "observations",
+        "recognition_review"
+      ],
+      "conditions": [
+        "识别字段会改变阵容或预算判断"
+      ],
+      "actions": [
+        "置信度未校准或识别不确定时请求确认",
+        "缺失字段保持unknown，不补猜"
+      ],
+      "exceptions": [
+        "非关键字段可展示但不可用作决策事实"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        3,
+        33
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "G03",
+      "title": "侦察范围与时效",
+      "priority": 98,
+      "provenance": "editorial_product_guardrail",
+      "required_inputs": [
+        "opponents",
+        "observed_at"
+      ],
+      "conditions": [
+        "建议依赖同行占牌或对手质量"
+      ],
+      "actions": [
+        "展示已侦察人数与时间",
+        "不宣称拥有完整七名对手状态"
+      ],
+      "exceptions": [
+        "旧观察仅作为历史线索，不确定当前占牌"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        24
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S01",
+      "title": "阵容候选看强度与可达性",
+      "priority": 70,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "board",
+        "bench",
+        "items",
+        "economy",
+        "candidate_comps",
+        "version"
+      ],
+      "conditions": [
+        "存在已核验的候选阵容"
+      ],
+      "actions": [
+        "比较核心与机制强度、成型成本、装备适配及竞争",
+        "保留可沿用装备的替代方向"
+      ],
+      "exceptions": [
+        "版本候选未核验时不做具体强度排名"
+      ],
+      "source_documents": [
+        "金铲铲这个游戏.docx",
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S02",
+      "title": "前期质量优先",
+      "priority": 70,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "board",
+        "bench",
+        "items",
+        "version"
+      ],
+      "conditions": [
+        "有适合过渡的两星低费卡"
+      ],
+      "actions": [
+        "优先比较围绕高质量核心的有效羁绊",
+        "诊断输出与前排短板"
+      ],
+      "exceptions": [
+        "有适配机制与装备的强势一星高费卡可能更好"
+      ],
+      "source_documents": [
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        10,
+        11
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S03",
+      "title": "装备定向与继承",
+      "priority": 70,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "items",
+        "board",
+        "candidate_comps",
+        "version"
+      ],
+      "conditions": [
+        "现有或拟合成装备限制候选方向"
+      ],
+      "actions": [
+        "检查当前持有者和后续接装核心",
+        "推荐主方向及兼容装备的替代方向"
+      ],
+      "exceptions": [
+        "关键装备缺失时比较等待代价，不保证选秀拿到"
+      ],
+      "source_documents": [
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        12,
+        13
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S04",
+      "title": "保连胜投入",
+      "priority": 75,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "economy",
+        "board",
+        "bench",
+        "items",
+        "streak",
+        "version"
+      ],
+      "conditions": [
+        "升级、刷新或合装可改善明确短板"
+      ],
+      "actions": [
+        "说明具体新增英雄或可完成升级",
+        "比较当前收益与利息及后续成型成本"
+      ],
+      "exceptions": [
+        "未侦察时只能说有潜力，不能保证胜利"
+      ],
+      "source_documents": [
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        15,
+        16
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S05",
+      "title": "连败计划与止损",
+      "priority": 85,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "health",
+        "economy",
+        "round",
+        "target_comp",
+        "streak",
+        "version"
+      ],
+      "conditions": [
+        "正在连败且计划依赖后续启动"
+      ],
+      "actions": [
+        "检查目标阵容强度与可达性",
+        "血量预算不足或争牌加剧时优先补强"
+      ],
+      "exceptions": [
+        "连败经济及选秀收益需核验机制，不假设奖励必得"
+      ],
+      "source_documents": [
+        "金铲铲这个游戏.docx",
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        14,
+        17
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S06",
+      "title": "经济收益适配",
+      "priority": 65,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "augments",
+        "target_comp",
+        "economy",
+        "version"
+      ],
+      "conditions": [
+        "选择强化或评估成型预算"
+      ],
+      "actions": [
+        "作者体系通常优先一项适配经济支持",
+        "比较金币、经验、免费刷新和直接给牌的兑现价值"
+      ],
+      "exceptions": [
+        "强自然经济、来牌或持续连胜可能替代",
+        "拿一个经济强化不代表总预算足够"
+      ],
+      "source_documents": [
+        "回答补充问题.docx",
+        "回答ai提出新的问题.docx"
+      ],
+      "course_slides": [
+        18,
+        19
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S07",
+      "title": "及时启动争核心",
+      "priority": 80,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "economy",
+        "target_comp",
+        "opponents",
+        "round",
+        "version"
+      ],
+      "conditions": [
+        "目标核心竞争明显且具备启动条件"
+      ],
+      "actions": [
+        "根据费用、等级概率与版本节奏及时启动",
+        "不把4-1当作所有阵容通用时点"
+      ],
+      "exceptions": [
+        "明确的高容错冲九路线需单独评估"
+      ],
+      "source_documents": [
+        "回答补充问题.docx"
+      ],
+      "course_slides": [
+        20,
+        22
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S08",
+      "title": "主C二星主T一星的分支",
+      "priority": 85,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "board",
+        "health",
+        "economy",
+        "opponents",
+        "target_comp",
+        "version"
+      ],
+      "conditions": [
+        "主C二星、主T一星"
+      ],
+      "actions": [
+        "检查目标占牌、即时替代前排和容错",
+        "容错高且经济与版本支持时评估上九",
+        "容错低时优先即时可实现的补强"
+      ],
+      "exceptions": [
+        "不只建议无限搜接近耗尽的单一目标",
+        "对手备战区未知时不宣称目标已耗尽"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        21,
+        31
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S09",
+      "title": "主C一星暂能赢的分支",
+      "priority": 80,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "board",
+        "health",
+        "economy",
+        "opponents",
+        "target_comp",
+        "version"
+      ],
+      "conditions": [
+        "主C仍一星且能赢部分已知对手"
+      ],
+      "actions": [
+        "不能只凭暂时获胜停止搜牌",
+        "比较后续质量压力、占牌竞争与冲九计划"
+      ],
+      "exceptions": [
+        "当前最优停手预算需计算，作者未提供固定金额"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        22
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S10",
+      "title": "转阵与下位替代",
+      "priority": 80,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "board",
+        "bench",
+        "items",
+        "economy",
+        "opponents",
+        "candidate_comps",
+        "version"
+      ],
+      "conditions": [
+        "原计划成型困难且存在可执行替代"
+      ],
+      "actions": [
+        "判断随机、竞争和预算原因",
+        "比较转阵成本、已持有替代牌及装备兼容",
+        "说明迫降可能以减少掉分为目标"
+      ],
+      "exceptions": [
+        "不保证替代阵容稳前三",
+        "没有可行替代时不编造变阵"
+      ],
+      "source_documents": [
+        "回答补充问题.docx",
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        13,
+        23
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S11",
+      "title": "牌池相对影响",
+      "priority": 70,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "opponents",
+        "target_comp",
+        "verified_pool_rules"
+      ],
+      "conditions": [
+        "共享有限同费用牌池机制已核验"
+      ],
+      "actions": [
+        "目标被拿走减少可用量",
+        "同费其他牌被购买可能改善目标相对机会"
+      ],
+      "exceptions": [
+        "观察不完整时不能精算剩余量",
+        "特殊复制等机制按版本处理"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        24
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S12",
+      "title": "冲九预算",
+      "priority": 85,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "health",
+        "economy",
+        "round",
+        "board",
+        "version",
+        "damage_estimate",
+        "target_comp"
+      ],
+      "conditions": [
+        "考虑跳过八级搜牌冲九"
+      ],
+      "actions": [
+        "检查版本高费强度、升级后刷新购牌预算",
+        "估计启动前损血并预留转型容错",
+        "展示保守情景和更稳的替代路线"
+      ],
+      "exceptions": [
+        "80血与每场12血不是通用门槛",
+        "未经确认未来资源不计入确定预算"
+      ],
+      "source_documents": [
+        "回答补充问题.docx",
+        "回答ai提出新的问题.docx"
+      ],
+      "course_slides": [
+        25,
+        26,
+        27,
+        32
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "S13",
+      "title": "根据玩家目标比较路线",
+      "priority": 60,
+      "provenance": "author_strategy",
+      "required_inputs": [
+        "player_goal",
+        "candidate_actions",
+        "risk_estimates"
+      ],
+      "conditions": [
+        "存在稳健与高上限两条可执行路线"
+      ],
+      "actions": [
+        "默认稳健上分",
+        "追求第一时说明稀缺条件与额外风险"
+      ],
+      "exceptions": [
+        "未统计校准不得输出数字胜率"
+      ],
+      "source_documents": [
+        "回答ai提出新的问题.docx"
+      ],
+      "course_slides": [
+        28
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    },
+    {
+      "id": "G04",
+      "title": "建议合法性与表达",
+      "priority": 97,
+      "provenance": "editorial_product_guardrail",
+      "required_inputs": [
+        "state",
+        "proposal",
+        "verified_rules"
+      ],
+      "conditions": [
+        "将向玩家展示操作建议"
+      ],
+      "actions": [
+        "验证金币、人口、持有牌、装备合成和触发条件",
+        "提供主建议、理由、风险、替代及下一观察点",
+        "引用状态事实与规则ID"
+      ],
+      "exceptions": [
+        "合法性不可验证时只给条件建议或请求确认",
+        "不假定可自动卸装或移动装备"
+      ],
+      "source_documents": [
+        "回答ai提出的问题.docx"
+      ],
+      "course_slides": [
+        33
+      ],
+      "status": "draft_not_runtime_validated",
+      "evaluation": "true_false_unknown",
+      "numeric_win_probability_allowed": false
+    }
+  ]
+}

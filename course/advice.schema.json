@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "金铲铲建议草案",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "generated_at",
+    "state_observed_at",
+    "status",
+    "main_action",
+    "reasons",
+    "conditions",
+    "risks",
+    "alternative",
+    "next_observation",
+    "rule_ids",
+    "version_sources",
+    "unknown_fields"
+  ],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "state_observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "needs_confirmation",
+        "conditional_advice",
+        "validated_advice"
+      ]
+    },
+    "main_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternative": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_observation": {
+      "type": "string"
+    },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknown_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

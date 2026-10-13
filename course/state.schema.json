@@ -1,0 +1,477 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "金铲铲对局状态草案",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observed_at",
+    "version",
+    "player_goal",
+    "health",
+    "economy",
+    "round",
+    "board",
+    "bench",
+    "items",
+    "augments",
+    "opponents",
+    "unknown_fields"
+  ],
+  "properties": {
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "game",
+        "mode",
+        "season",
+        "patch"
+      ],
+      "properties": {
+        "game": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "season": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "player_goal": {
+      "enum": [
+        "steady_rank",
+        "first_place"
+      ]
+    },
+    "health": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "round": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "economy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gold",
+        "level",
+        "xp"
+      ],
+      "properties": {
+        "gold": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "level": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "xp": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "board": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "hero_id",
+          "stars",
+          "position",
+          "item_ids",
+          "confidence"
+        ],
+        "properties": {
+          "hero_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stars": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 3
+          },
+          "position": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "item_ids": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "bench": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "hero_id",
+          "stars",
+          "position",
+          "item_ids",
+          "confidence"
+        ],
+        "properties": {
+          "hero_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stars": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 3
+          },
+          "position": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "item_ids": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "location",
+          "confidence"
+        ],
+        "properties": {
+          "item_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "location": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "augments": {
+      "type": "array",
+      "items": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "streak": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "win",
+            "loss",
+            "none",
+            "unknown"
+          ]
+        },
+        "count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "opponents": {
+      "type": "array",
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "player_id",
+          "observed_at",
+          "board",
+          "bench",
+          "complete"
+        ],
+        "properties": {
+          "player_id": {
+            "type": "string"
+          },
+          "observed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "board": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "hero_id",
+                "stars",
+                "position",
+                "item_ids",
+                "confidence"
+              ],
+              "properties": {
+                "hero_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "stars": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "position": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "item_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "confidence": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          },
+          "bench": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "hero_id",
+                "stars",
+                "position",
+                "item_ids",
+                "confidence"
+              ],
+              "properties": {
+                "hero_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "stars": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "position": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "item_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "confidence": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          },
+          "complete": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "unknown_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recognition_review": {
+      "enum": [
+        "needs_confirmation",
+        "confirmed",
+        "partial"
+      ]
+    },
+    "damage_estimate": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "remaining_fights": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "loss_low": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "loss_high": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "transition_reserve": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "basis": {
+          "enum": [
+            "verified_rule",
+            "recent_fights",
+            "teaching_assumption",
+            "unknown"
+          ]
+        }
+      }
+    }
+  }
+}
