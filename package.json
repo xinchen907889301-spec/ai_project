@@ -1,0 +1,13 @@
+{
+  "name": "yiyouzhangfa-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "node --test app/test/*.test.js",
+    "data:refresh": "node scripts/capture-datatft.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "playwright": "1.57.0" }
+}

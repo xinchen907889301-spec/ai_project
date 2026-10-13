@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>弈有章法 · 定阵助手</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="brand"><span class="mark">弈</span><div>弈有章法<small>读懂局势，再做选择</small></div></div><span class="badge">局内策略 · 研究原型</span></header>
+<main><section class="intro"><p class="eyebrow">SCOUT · UNDERSTAND · DECIDE</p><h1>先看方向，再定阵。</h1><p>从装备与强化预判竞争，给自己的下一步留一条退路。</p></section>
+<div class="source" id="source">正在加载资料库…</div>
+<div class="toolbar"><label>当前回合 <input id="round" value="2-5" pattern="[0-9]-[1-9]" maxlength="3"></label><label>目标 <select id="goal"><option value="steady">稳健上分</option><option value="first">争取第一</option></select></label><label class="switch"><input type="checkbox" id="expert">展开专业分析</label><button id="demo" class="secondary">体验演示局势</button><button id="reset" class="secondary">开始新对局</button></div>
+<div id="demo-label" class="demo hidden">当前是演示局势。玩家持有情况为构造示例；阵容资料来自网站快照。</div>
+<div class="layout"><aside class="panel"><div class="section-head"><h2>观察记录</h2><span id="coverage">0 / 7 家</span></div><p class="sub">你切换棋盘，助手帮你记。未观察不等于没有同行。</p><div id="slots"></div></aside>
+<section class="panel editor"><div class="section-head"><h2 id="editor-title">记录自己</h2><span id="record-status" class="tag">等待记录</span></div><p id="opponent-direction" class="sub hidden"></p>
+<div class="capture-actions"><label class="file-button">选择游戏截图<input id="image" type="file" accept="image/png,image/jpeg"></label><button id="native-capture" class="hidden">开启悬浮采集</button><button id="recognize" disabled>识别截图</button></div>
+<img id="preview" alt="待确认的游戏截图" class="hidden"><p id="image-note" class="sub">可以手动记录，也可以接入视觉模型后读取截图。截图识别结果必须确认后才能覆盖记录。</p>
+<label>这张画面属于<select id="identity"></select></label><div class="row"><label>观察回合<input id="observed-round" value="2-5" maxlength="3"></label><label>画面阶段<select id="phase"><option value="planning">备战阶段</option><option value="combat">战斗阶段</option><option value="unknown">无法确认</option></select></label></div>
+<label>已合成装备 <span>优先判断方向的证据</span><input id="item-search" placeholder="搜索装备，例如 鬼索 / 青龙刀"></label><div id="item-options" class="options"></div><div id="items" class="chips"></div>
+<label>强化符文 <input id="augment-search" placeholder="输入强化名字"></label><div id="augment-options" class="options"></div><div id="augments" class="chips"></div>
+<label>场上与备战区英雄 <input id="hero-search" placeholder="输入英雄名字"></label><div id="hero-options" class="options"></div><div id="heroes" class="chips"></div>
+<label class="confirm"><input id="confirmed" type="checkbox">我已确认玩家、回合、画面阶段和所选内容</label><button id="save" class="primary">确认记录并更新建议</button><p id="message" role="status" aria-live="polite"></p>
+</section><aside class="panel results"><div class="section-head"><h2>定阵方向</h2><span class="tag">预判，不是锁定</span></div><p id="advice-message" class="sub"></p><div id="advice"></div><details><summary>研究限制与信息缺口</summary><ul id="warnings"></ul></details></aside></div>
+<details class="panel settings"><summary>视觉识别连接设置</summary><p class="sub">没有配置服务时仍可手动记录。只有点击“识别截图”才上传画面；服务端需要视觉模型配置。</p><label>分析服务地址<input id="server-url" type="url" placeholder="https://你的分析服务域名（浏览器同站可留空）"></label><label>服务访问码<input id="access-token" type="password" autocomplete="off" placeholder="分析服务的访问码，不是模型 API 密钥"></label><button id="check-service" class="secondary">检查服务</button><p id="service-status" role="status"></p></details>
+<footer>原型 v0.1 · 数据来自 DataTFT · 建议不能代替版本核验与玩家判断</footer></main><script type="module" src="app.js"></script></body></html>

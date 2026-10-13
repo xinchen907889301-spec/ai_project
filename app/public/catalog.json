@@ -1,0 +1,4863 @@
+{
+  "schemaVersion": 1,
+  "platform": "jcc",
+  "season": "18",
+  "patch": null,
+  "reviewStatus": "research_snapshot",
+  "fetchedAt": "2026-10-13T13:06:24.736Z",
+  "sourceUrl": "https://jcc.datatft.com/h5?season=18",
+  "filters": {
+    "season": "18",
+    "tier": "grandmaster",
+    "time": 5
+  },
+  "totalCountRaw": "691832",
+  "caveats": [
+    "尚未确认具体补丁、统计时间窗与每套阵容样本量",
+    "登场率单位未核验，不作为概率使用",
+    "网站评级与统计指标分别保存",
+    "早期预判为可解释启发式，分数不是概率"
+  ],
+  "heroes": [
+    {
+      "id": "DA_18_LeBlanc",
+      "name": "乐芙兰",
+      "cost": 2
+    },
+    {
+      "id": "DA_Fiddlesticks18",
+      "name": "费德提克",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Kayle",
+      "name": "凯尔",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_MasterYi_AD",
+      "name": "易",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Alistar",
+      "name": "阿利斯塔",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Sivir",
+      "name": "希维尔",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Soraka",
+      "name": "索拉卡",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Teemo",
+      "name": "提莫",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Tristana",
+      "name": "崔丝塔娜",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Warwick",
+      "name": "沃里克",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Ashe",
+      "name": "艾希",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Morgana",
+      "name": "莫甘娜",
+      "cost": 4
+    },
+    {
+      "id": "DA_Amumu18",
+      "name": "阿木木",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Rammus",
+      "name": "拉莫斯",
+      "cost": 3
+    },
+    {
+      "id": "DA_Karma18",
+      "name": "卡尔玛",
+      "cost": 1
+    },
+    {
+      "id": "DA_Taric18",
+      "name": "塔里克",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Veigar",
+      "name": "维迦",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Caitlyn",
+      "name": "凯特琳",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Malphite",
+      "name": "墨菲特",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Maokai",
+      "name": "茂凯",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Elise",
+      "name": "伊莉丝",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Cassiopeia",
+      "name": "卡西奥佩娅",
+      "cost": 3
+    },
+    {
+      "id": "DA_Nidalee18_AP",
+      "name": "奈德丽",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Ezreal",
+      "name": "伊泽瑞尔",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Yorick",
+      "name": "约里克",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Akali_AD",
+      "name": "阿卡丽",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Kennen",
+      "name": "凯南",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Leona",
+      "name": "蕾欧娜",
+      "cost": 1
+    },
+    {
+      "id": "DA_KogMaw18_AD",
+      "name": "克格莫",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Shen",
+      "name": "慎",
+      "cost": 2
+    },
+    {
+      "id": "DA_Lux18_Base",
+      "name": "拉克丝",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Ahri",
+      "name": "阿狸",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Rengar",
+      "name": "雷恩加尔",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Varus",
+      "name": "韦鲁斯",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Sejuani",
+      "name": "瑟庄妮",
+      "cost": 2
+    },
+    {
+      "id": "DA_Draven18",
+      "name": "德莱文",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Hecarim",
+      "name": "赫卡里姆",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_KhaZix",
+      "name": "卡兹克",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Diana",
+      "name": "黛安娜",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Zyra",
+      "name": "婕拉",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_GnarSmall",
+      "name": "纳尔",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Camille",
+      "name": "卡蜜尔",
+      "cost": 1
+    },
+    {
+      "id": "DA_Vi18",
+      "name": "蔚",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_Azir",
+      "name": "阿兹尔",
+      "cost": 3
+    },
+    {
+      "id": "DA_18_RekSai",
+      "name": "雷克塞",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Ivern",
+      "name": "艾翁",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Rakan",
+      "name": "洛",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Xayah",
+      "name": "霞",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Ornn",
+      "name": "奥恩",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Aphelios",
+      "name": "厄斐琉斯",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Yunara",
+      "name": "芸阿娜",
+      "cost": 2
+    },
+    {
+      "id": "DA_18_Sett",
+      "name": "瑟提",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Lillia",
+      "name": "莉莉娅",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_Kobuko",
+      "name": "可酷伯",
+      "cost": 1
+    },
+    {
+      "id": "DA_18_Alune",
+      "name": "拉露恩",
+      "cost": 5
+    },
+    {
+      "id": "DA_18_Sentry",
+      "name": "苍蓝哨戒",
+      "cost": 1
+    },
+    {
+      "id": "DA_Cinderling18",
+      "name": "绯红树怪",
+      "cost": 1
+    },
+    {
+      "id": "DA_Gromp18_AP",
+      "name": "魔沼蛙",
+      "cost": 2
+    },
+    {
+      "id": "DA_Murkwolf18",
+      "name": "暗影狼",
+      "cost": 2
+    },
+    {
+      "id": "DA_Krug18",
+      "name": "远古石甲虫",
+      "cost": 3
+    },
+    {
+      "id": "DA_Scuttlecrab18",
+      "name": "峡谷迅捷蟹",
+      "cost": 2
+    },
+    {
+      "id": "DA_CrimsonRaptor18",
+      "name": "深红锋喙鸟",
+      "cost": 3
+    },
+    {
+      "id": "DA_Brambleback18",
+      "name": "绯红印记树怪",
+      "cost": 4
+    },
+    {
+      "id": "DA_Sentinel18",
+      "name": "苍蓝雕纹魔像",
+      "cost": 4
+    },
+    {
+      "id": "DA_18_ElderDragon",
+      "name": "远古巨龙",
+      "cost": 5
+    }
+  ],
+  "items": [
+    {
+      "id": "DA_Component_BFSword",
+      "name": "暴风之剑",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_RecurveBow",
+      "name": "反曲之弓",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_NeedlesslyLargeRod",
+      "name": "无用大棒",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_TearOfTheGoddess",
+      "name": "女神之泪",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_ChainVest",
+      "name": "锁子甲",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_NegatronCloak",
+      "name": "负极斗篷",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_GiantsBelt",
+      "name": "巨人腰带",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_SparringGloves",
+      "name": "拳套",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_Spatula",
+      "name": "金铲铲",
+      "type": "part"
+    },
+    {
+      "id": "DA_Component_FryingPan",
+      "name": "金锅锅",
+      "type": "part"
+    },
+    {
+      "id": "DA_Deathblade",
+      "name": "锐利之刃",
+      "type": "common"
+    },
+    {
+      "id": "DA_GiantSlayer",
+      "name": "巨人捕手",
+      "type": "common"
+    },
+    {
+      "id": "DA_HextechGunblade",
+      "name": "海克斯科技枪刃",
+      "type": "common"
+    },
+    {
+      "id": "DA_SpearOfShojin",
+      "name": "朔极之矛",
+      "type": "common"
+    },
+    {
+      "id": "DA_EdgeOfNight",
+      "name": "夜之锋刃",
+      "type": "common"
+    },
+    {
+      "id": "DA_Bloodthirster",
+      "name": "汲取剑",
+      "type": "common"
+    },
+    {
+      "id": "DA_SteraksGage",
+      "name": "斯特拉克的挑战护手",
+      "type": "common"
+    },
+    {
+      "id": "DA_InfinityEdge",
+      "name": "无尽之刃",
+      "type": "common"
+    },
+    {
+      "id": "DA_RedBuff",
+      "name": "红霸符",
+      "type": "common"
+    },
+    {
+      "id": "DA_GuinsoosRageblade",
+      "name": "鬼索的狂暴之刃",
+      "type": "common"
+    },
+    {
+      "id": "DA_VoidStaff",
+      "name": "虚空之杖",
+      "type": "common"
+    },
+    {
+      "id": "DA_TitansResolve",
+      "name": "泰坦的坚决",
+      "type": "common"
+    },
+    {
+      "id": "DA_KrakensFury",
+      "name": "海妖之怒",
+      "type": "common"
+    },
+    {
+      "id": "DA_NashorsTooth",
+      "name": "纳什之牙",
+      "type": "common"
+    },
+    {
+      "id": "DA_LastWhisper",
+      "name": "最后的轻语",
+      "type": "common"
+    },
+    {
+      "id": "DA_RabadonsDeathcap",
+      "name": "班克斯的魔法帽",
+      "type": "common"
+    },
+    {
+      "id": "DA_ArchangelsStaff",
+      "name": "大天使之杖",
+      "type": "common"
+    },
+    {
+      "id": "DA_Crownguard",
+      "name": "冕卫",
+      "type": "common"
+    },
+    {
+      "id": "DA_IonicSpark",
+      "name": "离子火花",
+      "type": "common"
+    },
+    {
+      "id": "DA_Morellonomicon",
+      "name": "莫雷洛秘典",
+      "type": "common"
+    },
+    {
+      "id": "DA_JeweledGauntlet",
+      "name": "珠光护手",
+      "type": "common"
+    },
+    {
+      "id": "DA_BlueBuff",
+      "name": "蓝霸符",
+      "type": "common"
+    },
+    {
+      "id": "DA_ProtectorsVow",
+      "name": "圣盾使的誓约",
+      "type": "common"
+    },
+    {
+      "id": "DA_AdaptiveHelm",
+      "name": "适应性头盔",
+      "type": "common"
+    },
+    {
+      "id": "DA_SpiritVisage",
+      "name": "振奋盔甲",
+      "type": "common"
+    },
+    {
+      "id": "DA_HandOfJustice",
+      "name": "正义之手",
+      "type": "common"
+    },
+    {
+      "id": "DA_BrambleVest",
+      "name": "棘刺背心",
+      "type": "common"
+    },
+    {
+      "id": "DA_GargoyleStoneplate",
+      "name": "石像鬼石板甲",
+      "type": "common"
+    },
+    {
+      "id": "DA_SunfireCape",
+      "name": "日炎斗篷",
+      "type": "common"
+    },
+    {
+      "id": "DA_SteadfastHeart",
+      "name": "坚定之心",
+      "type": "common"
+    },
+    {
+      "id": "DA_DragonsClaw",
+      "name": "巨龙之爪",
+      "type": "common"
+    },
+    {
+      "id": "DA_Evenshroud",
+      "name": "薄暮法袍",
+      "type": "common"
+    },
+    {
+      "id": "DA_Quicksilver",
+      "name": "水银",
+      "type": "common"
+    },
+    {
+      "id": "DA_WarmogsArmor",
+      "name": "狂徒铠甲",
+      "type": "common"
+    },
+    {
+      "id": "DA_StrikersFlail",
+      "name": "强袭者的链枷",
+      "type": "common"
+    },
+    {
+      "id": "DA_ThiefsGloves",
+      "name": "秘法手套",
+      "type": "common"
+    },
+    {
+      "id": "DA_TacticiansCrown",
+      "name": "金铲铲冠冕",
+      "type": "common"
+    },
+    {
+      "id": "DA_TacticiansShield",
+      "name": "金锅锅冠冕",
+      "type": "common"
+    },
+    {
+      "id": "DA_TacticiansCape",
+      "name": "金锅铲冠冕",
+      "type": "common"
+    },
+    {
+      "id": "DA_Artifact_VoidGauntlet",
+      "name": "虚空护手",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDawn",
+      "name": "黎明圣盾",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_HellfireHatchet",
+      "name": "恶火小斧",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDusk",
+      "name": "黄昏圣盾",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_EternalPact",
+      "name": "永恒契约",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_Dawncore",
+      "name": "黎明核心",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_NavoriFlickerblade",
+      "name": "烁刃",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_StatikkShiv",
+      "name": "斯塔缇克电刃",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_TitanicHydra",
+      "name": "巨型九头蛇",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_TheIndomitable",
+      "name": "顽强不屈",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_DeathsDefiance",
+      "name": "死亡之蔑",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_InfinityForce",
+      "name": "三相之力",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_GoldCollector",
+      "name": "金币收集者",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_ZhonyasParadox",
+      "name": "中娅悖论",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_Hullcrusher",
+      "name": "碎舰者",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_MogulsMail",
+      "name": "大亨之铠",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_GamblersBlade",
+      "name": "投机者之刃",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Item_Artifact_TalismanOfAscension",
+      "name": "飞升护符",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_Fishbones",
+      "name": "鱼骨头",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_Mittens",
+      "name": "连指手套",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_RapidFireCannon",
+      "name": "疾射火炮",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_SilvermereDawn",
+      "name": "密银黎明",
+      "type": "aoen"
+    },
+    {
+      "id": "TFT_Item_Artifact_ProwlersClaw",
+      "name": "暗行者之爪",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_BlightingJewel",
+      "name": "枯萎珠宝",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_WitsEnd",
+      "name": "智慧末刃",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_LichBane",
+      "name": "巫妖之祸",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_LightshieldCrest",
+      "name": "光盾徽章",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_SeekersArmguard",
+      "name": "探索者的护臂",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_LudensTempest",
+      "name": "卢登的激荡",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_Manazane",
+      "name": "魔蕴",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_ForbiddenIdol",
+      "name": "禁忌雕像",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_Artifact_HorizonFocus",
+      "name": "视界专注",
+      "type": "aoen"
+    },
+    {
+      "id": "DA_DeathbladeRadiant",
+      "name": "光明版锐利之刃",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_GiantSlayer_Radiant",
+      "name": "光明版巨人捕手",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_HextechGunbladeRadiant",
+      "name": "光明版海克斯科技枪刃",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_SpearOfShojinRadiant",
+      "name": "光明版朔极之矛",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_EdgeOfNightRadiant",
+      "name": "光明版夜之锋刃",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_BloodthirsterRadiant",
+      "name": "光明版汲取剑",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_SteraksGageRadiant",
+      "name": "光明版斯特拉克的挑战护手",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_InfinityEdgeRadiant",
+      "name": "光明版无尽之刃",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_RedBuffRadiant",
+      "name": "光明版红霸符",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_GuinsoosRagebladeRadiant",
+      "name": "光明版鬼索的狂暴之刃",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_VoidStaffRadiant",
+      "name": "光明版虚空之杖",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_TitansResolve_Radiant",
+      "name": "光明版泰坦的坚决",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_KrakensFury_Radiant",
+      "name": "光明版海妖之怒",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_NashorsToothRadiant",
+      "name": "光明版纳什之牙",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_LastWhisperRadiant",
+      "name": "光明版最后的轻语",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_RabadonsDeathcap_Radiant",
+      "name": "光明版班克斯的魔法帽",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_ArchangelsStaffRadiant",
+      "name": "光明版大天使之杖",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_CrownguardRadiant",
+      "name": "光明版冕卫",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_IonicSparkRadiant",
+      "name": "光明版离子火花",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_MorellonomiconRadiant",
+      "name": "光明版莫雷洛秘典",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_JeweledGauntletRadiant",
+      "name": "光明版珠光护手",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_BlueBuffRadiant",
+      "name": "光明版蓝霸符",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_ProtectorsVowRadiant",
+      "name": "光明版圣盾使的誓约",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_AdaptiveHelm_Radiant",
+      "name": "光明版适应性头盔",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_SpiritVisage_Radiant",
+      "name": "光明版振奋盔甲",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_HandOfJusticeRadiant",
+      "name": "光明版正义之手",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_BrambleVestRadiant",
+      "name": "光明版棘刺背心",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_GargoyleStoneplate_Radiant",
+      "name": "光明版石像鬼石板甲",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_SunfireCape_Radiant",
+      "name": "光明版日炎斗篷",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_SteadfastHeartRadiant",
+      "name": "光明版坚定之心",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_DragonsClawRadiant",
+      "name": "光明版巨龙之爪",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_EvenshroudRadiant",
+      "name": "光明版薄暮法袍",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_QuicksilverRadiant",
+      "name": "光明版水银",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_WarmogsArmorRadiant",
+      "name": "光明版狂徒铠甲",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_StrikersFlailRadiant",
+      "name": "光明版强袭者的链枷",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_ThiefsGlovesRadiant",
+      "name": "光明版秘法手套",
+      "type": "guangming"
+    },
+    {
+      "id": "DA_LuckyItemChest",
+      "name": "幸运装备宝箱",
+      "type": "remove"
+    },
+    {
+      "id": "TFT_Consumable_RecommendedArmoryRadiant",
+      "name": "光明版幸运装备宝箱",
+      "type": "remove"
+    },
+    {
+      "id": "DA_SalvagerUpgrade18",
+      "name": "打捞术",
+      "type": "remove"
+    },
+    {
+      "id": "DA_18_EmblemBlossom",
+      "name": "灵魂莲华纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemLunar",
+      "name": "月蚀骑士纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemSprykin",
+      "name": "约德尔人和朋友纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemFae",
+      "name": "花仙子纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemInferno",
+      "name": "地狱火纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemElderwood",
+      "name": "永恒之森纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemBlackthorn",
+      "name": "黑荆棘纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemPrimal",
+      "name": "野兽之灵纹章",
+      "type": "zhuanzhi"
+    },
+    {
+      "id": "DA_18_EmblemExecutioner",
+      "name": "裁决使纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemBrawler",
+      "name": "斗士纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemInvoker",
+      "name": "神谕纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemRapidfire",
+      "name": "迅捷射手纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemSpellweaver",
+      "name": "法师纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemVanguard",
+      "name": "重装战士纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemHunter",
+      "name": "猎人纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemSlayer",
+      "name": "狂战士纹章",
+      "type": "zhuanzhiJgg"
+    },
+    {
+      "id": "DA_18_EmblemCoven",
+      "name": "魔女纹章",
+      "type": "zhuanzhi2"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalis",
+      "name": "绝命花妖纹章",
+      "type": "zhuanzhi2"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalisAugment",
+      "name": "绝命花妖纹章",
+      "type": "zhuanzhi2"
+    },
+    {
+      "id": "DA_18_EmblemDefender",
+      "name": "护卫纹章",
+      "type": "zhuanzhi2"
+    },
+    {
+      "id": "DA_18_EmblemJuggernaut",
+      "name": "主宰纹章",
+      "type": "zhuanzhi2"
+    },
+    {
+      "id": "DA_PhantomEmblem18",
+      "name": "幻影纹章",
+      "type": "remove"
+    },
+    {
+      "id": "DA_HealthPotion18",
+      "name": "生命药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_HealthPotion18_Radiant",
+      "name": "光明版生命药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_ManaPotion18",
+      "name": "法力药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_ManaPotion18_Radiant",
+      "name": "光明版法力药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_BlastPotion18",
+      "name": "爆破药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_BlastPotion18_Radiant",
+      "name": "光明版爆破药水",
+      "type": "other"
+    },
+    {
+      "id": "DA_Riftbeast18_Selector",
+      "name": "阿尔法印记",
+      "type": "daoju"
+    },
+    {
+      "id": "DA_CUSTOM_1",
+      "name": "毛绒绒大朋友",
+      "type": "daoju"
+    },
+    {
+      "id": "DA_CUSTOM_2",
+      "name": "毛绒绒大朋友",
+      "type": "daoju"
+    }
+  ],
+  "augments": [
+    {
+      "id": "DA_18_InfernoTraitAugment",
+      "name": "烧起来"
+    },
+    {
+      "id": "DA_FindYourCenter",
+      "name": "核心位的觉悟"
+    },
+    {
+      "id": "DA_RollingForDays",
+      "name": "嘀个痛快！ I"
+    },
+    {
+      "id": "DA_18_OnesTwosThree",
+      "name": "一，二，三"
+    },
+    {
+      "id": "DA_18_OneTwoFive",
+      "name": "一，二，五！"
+    },
+    {
+      "id": "DA_YoungAndWildAndFree",
+      "name": "不拘一格"
+    },
+    {
+      "id": "DA_SliceOfLife",
+      "name": "人生切片"
+    },
+    {
+      "id": "DA_18_WispRebatePlus",
+      "name": "仙灵报恩"
+    },
+    {
+      "id": "DA_18_WispRebatePlusPlus",
+      "name": "仙灵报恩+"
+    },
+    {
+      "id": "DA_LatentForge",
+      "name": "休眠锻炉"
+    },
+    {
+      "id": "DA_Dummify",
+      "name": "假人化"
+    },
+    {
+      "id": "DA_MissedConnections",
+      "name": "别再错过"
+    },
+    {
+      "id": "DA_KickStart",
+      "name": "博弈开启"
+    },
+    {
+      "id": "DA_TwinGuardians",
+      "name": "双子守护神"
+    },
+    {
+      "id": "DA_Recombobulator",
+      "name": "变形重组器"
+    },
+    {
+      "id": "DA_LateGameSpecialist",
+      "name": "后期专家"
+    },
+    {
+      "id": "DA_TeamBuilding",
+      "name": "团队建设"
+    },
+    {
+      "id": "DA_ComponentBuffet",
+      "name": "基础装备自助餐"
+    },
+    {
+      "id": "DA_SmallGrabBag",
+      "name": "小小福袋"
+    },
+    {
+      "id": "DA_MakeshiftArmorI",
+      "name": "应急护甲 I"
+    },
+    {
+      "id": "DA_ChampDelivery",
+      "name": "弈子配送"
+    },
+    {
+      "id": "DA_ChampDeliveryPlus",
+      "name": "弈子配送+"
+    },
+    {
+      "id": "DA_ChampDeliveryPlusPlus",
+      "name": "弈子配送++"
+    },
+    {
+      "id": "DA_Kingslayer",
+      "name": "弑君突刺"
+    },
+    {
+      "id": "DA_AugmentedPower",
+      "name": "强化之能量"
+    },
+    {
+      "id": "DA_BackupBows",
+      "name": "战时补给：反曲之弓"
+    },
+    {
+      "id": "DA_FlowingTears",
+      "name": "战时补给：女神之泪"
+    },
+    {
+      "id": "DA_ExtraBuckles",
+      "name": "战时补给：巨人腰带"
+    },
+    {
+      "id": "DA_CarveAPath",
+      "name": "战时补给：暴风大剑"
+    },
+    {
+      "id": "DA_FeelingLucky",
+      "name": "手气不错"
+    },
+    {
+      "id": "DA_GroupHugI",
+      "name": "拥抱 I"
+    },
+    {
+      "id": "DA_BoxingLessons",
+      "name": "拳击课程"
+    },
+    {
+      "id": "DA_CelestialBlessingI",
+      "name": "星界恩典I"
+    },
+    {
+      "id": "DA_18_GoodForSomethingI",
+      "name": "有用之材 I"
+    },
+    {
+      "id": "DA_18_ResidualMagic",
+      "name": "残留魔力"
+    },
+    {
+      "id": "DA_18_ResidualMagicPlus",
+      "name": "残留魔力+"
+    },
+    {
+      "id": "DA_18_ResidualMagicPlusPlus",
+      "name": "残留魔力++"
+    },
+    {
+      "id": "DA_HealingOrbsI",
+      "name": "治疗法球 I"
+    },
+    {
+      "id": "DA_18_CaretakersAlly",
+      "name": "游神的盟友"
+    },
+    {
+      "id": "DA_PandorasItemsI",
+      "name": "潘朵拉的装备"
+    },
+    {
+      "id": "DA_PandorasBench",
+      "name": "潘朵拉的备战席"
+    },
+    {
+      "id": "DA_LoadedDice",
+      "name": "灌铅骰子"
+    },
+    {
+      "id": "DA_ForgeAFriend",
+      "name": "锻造挚友"
+    },
+    {
+      "id": "DA_GlassCannon_Silver",
+      "name": "玻璃大炮 I"
+    },
+    {
+      "id": "DA_ElectrochargeI",
+      "name": "电火花 I"
+    },
+    {
+      "id": "DA_SilverDestiny",
+      "name": "白银命运"
+    },
+    {
+      "id": "DA_SilverDestinyPlus",
+      "name": "白银命运+"
+    },
+    {
+      "id": "DA_SilverDestinyPlusPlus",
+      "name": "白银命运++"
+    },
+    {
+      "id": "DA_BandOfThieves",
+      "name": "秘法帮派"
+    },
+    {
+      "id": "DA_CraftedCrafting",
+      "name": "精心打造"
+    },
+    {
+      "id": "DA_VerticalityI",
+      "name": "纵深 I"
+    },
+    {
+      "id": "DA_PatienceIsAVirtue",
+      "name": "耐心是一种美德"
+    },
+    {
+      "id": "DA_StandUnited",
+      "name": "并肩作战 I"
+    },
+    {
+      "id": "DA_Corrosion",
+      "name": "腐蚀"
+    },
+    {
+      "id": "DA_18_BranchingOut",
+      "name": "节外生枝"
+    },
+    {
+      "id": "DA_18_BranchingOutPlus",
+      "name": "节外生枝+"
+    },
+    {
+      "id": "DA_ItemGrabBag",
+      "name": "装备百宝袋 I"
+    },
+    {
+      "id": "DA_CognitiveTax",
+      "name": "认知税"
+    },
+    {
+      "id": "DA_CognitiveTaxPlus",
+      "name": "认知税+"
+    },
+    {
+      "id": "DA_CapitalGainsI",
+      "name": "资本利得 I"
+    },
+    {
+      "id": "DA_SlightlyMagicRoll",
+      "name": "轻量魔法投掷"
+    },
+    {
+      "id": "DA_CalledShot",
+      "name": "进攻宣告"
+    },
+    {
+      "id": "DA_Expedition",
+      "name": "远征"
+    },
+    {
+      "id": "DA_QuickStreaks",
+      "name": "连败连胜才能连鸡"
+    },
+    {
+      "id": "DA_PartialAscension",
+      "name": "部分飞升"
+    },
+    {
+      "id": "DA_SilverSpoon",
+      "name": "银汤匙"
+    },
+    {
+      "id": "DA_FocusedFire",
+      "name": "集中火力"
+    },
+    {
+      "id": "DA_TheTower",
+      "name": "高塔"
+    },
+    {
+      "id": "DA_FutureFocused",
+      "name": "高瞻远瞩"
+    },
+    {
+      "id": "DA_IronAssets",
+      "name": "黑铁资产"
+    },
+    {
+      "id": "DA_18_SolarTraitAugment",
+      "name": "太阳的抉择"
+    },
+    {
+      "id": "DA_18_RivalsAugment",
+      "name": "世纪和解"
+    },
+    {
+      "id": "DA_18_PrimalAugment_Nidalee",
+      "name": "兽性本能"
+    },
+    {
+      "id": "DA_18_PrimalAugment_Sivir",
+      "name": "兽性本能"
+    },
+    {
+      "id": "DA_18_PrimalAugmentPlus_Nidalee",
+      "name": "兽性本能+"
+    },
+    {
+      "id": "DA_18_PrimalAugmentPlus_Sivir",
+      "name": "兽性本能+"
+    },
+    {
+      "id": "DA_18_CovenTraitAugment",
+      "name": "女巫使魔"
+    },
+    {
+      "id": "DA_18_FaeTraitAugment",
+      "name": "巨化术"
+    },
+    {
+      "id": "DA_18_LunarTraitAugment",
+      "name": "日月同辉"
+    },
+    {
+      "id": "DA_18_LunarTraitAugmentPlus",
+      "name": "日月同辉+"
+    },
+    {
+      "id": "DA_18_RiftbeastTraitAugment",
+      "name": "欧米茄之怪"
+    },
+    {
+      "id": "DA_18_SprykinAugment",
+      "name": "毛茸茸小朋友"
+    },
+    {
+      "id": "DA_18_BlossomTraitAugment",
+      "name": "绽灵花的约定"
+    },
+    {
+      "id": "DA_18_ElderwoodTraitAugment",
+      "name": "自然庇护所"
+    },
+    {
+      "id": "DA_18_FloraFatalisAugment",
+      "name": "致命丽花"
+    },
+    {
+      "id": "DA_BlackthornTraitAugment",
+      "name": "装备提炼"
+    },
+    {
+      "id": "DA_18_CovenTraitAugment_LootToAP",
+      "name": "黑暗仪式"
+    },
+    {
+      "id": "DA_EpicRolldown",
+      "name": "8级D干的传说"
+    },
+    {
+      "id": "DA_TradeSector",
+      "name": "嘀嘀街区"
+    },
+    {
+      "id": "DA_TradeSectorPlus",
+      "name": "嘀嘀街区加强版"
+    },
+    {
+      "id": "DA_SpeedyDoubleKill",
+      "name": "一波带走俩"
+    },
+    {
+      "id": "DA_LegionOfThrees",
+      "name": "三幻神"
+    },
+    {
+      "id": "DA_InfinityProtection",
+      "name": "三相庇护"
+    },
+    {
+      "id": "DA_NoScoutNoPivot",
+      "name": "不侦察，不变阵"
+    },
+    {
+      "id": "DA_ExclusiveCustomization",
+      "name": "专属定制"
+    },
+    {
+      "id": "DA_PortableForge",
+      "name": "便携锻炉"
+    },
+    {
+      "id": "DA_WorththeWait",
+      "name": "值得等待"
+    },
+    {
+      "id": "DA_ConstructACompanion",
+      "name": "挑个好伙计！"
+    },
+    {
+      "id": "DA_BodyguardTraining",
+      "name": "利落保镖"
+    },
+    {
+      "id": "DA_FrontlineFoundation",
+      "name": "前线地基"
+    },
+    {
+      "id": "DA_Swordsmith",
+      "name": "剑之工匠"
+    },
+    {
+      "id": "DA_SoloPlate",
+      "name": "单身板甲"
+    },
+    {
+      "id": "DA_URF",
+      "name": "厨神阿福"
+    },
+    {
+      "id": "DA_ArcaneViktory",
+      "name": "双城赢家"
+    },
+    {
+      "id": "DA_18_DuoQueue",
+      "name": "双排"
+    },
+    {
+      "id": "DA_Replication",
+      "name": "反响"
+    },
+    {
+      "id": "DA_ClockworkAccelerator",
+      "name": "发条增速器"
+    },
+    {
+      "id": "DA_BacklineBlueprint",
+      "name": "后排蓝图"
+    },
+    {
+      "id": "DA_LateGameScaling",
+      "name": "后期收益"
+    },
+    {
+      "id": "DA_18_FOURcing",
+      "name": "四之力"
+    },
+    {
+      "id": "DA_18_BigGrabBag",
+      "name": "大百宝袋"
+    },
+    {
+      "id": "DA_DoubleTrouble",
+      "name": "好事成双 II"
+    },
+    {
+      "id": "DA_CalculatedLoss",
+      "name": "存心失利"
+    },
+    {
+      "id": "DA_EarlyLearnings",
+      "name": "宝宝学院"
+    },
+    {
+      "id": "DA_MakeshiftArmorII",
+      "name": "应急护甲 II"
+    },
+    {
+      "id": "DA_PlotArmor",
+      "name": "应急护盾"
+    },
+    {
+      "id": "DA_Warpath",
+      "name": "征战之路"
+    },
+    {
+      "id": "DA_HeartOfSteel",
+      "name": "心之钢"
+    },
+    {
+      "id": "DA_MaliciousMonetization",
+      "name": "恶意货币化"
+    },
+    {
+      "id": "DA_BonusGift",
+      "name": "意外之礼"
+    },
+    {
+      "id": "DA_BonusGiftPlus",
+      "name": "意外之礼+"
+    },
+    {
+      "id": "DA_TonsOfStatsI",
+      "name": "成吨的属性"
+    },
+    {
+      "id": "DA_SalvageBin",
+      "name": "打捞桶"
+    },
+    {
+      "id": "DA_SalvageBinPlus",
+      "name": "打捞桶+"
+    },
+    {
+      "id": "DA_BoosterPack",
+      "name": "扩展包"
+    },
+    {
+      "id": "DA_BoosterPackPlus",
+      "name": "扩展包+"
+    },
+    {
+      "id": "DA_BoosterPackPlusPlus",
+      "name": "扩展包++"
+    },
+    {
+      "id": "DA_PromisedProtection",
+      "name": "承诺之护"
+    },
+    {
+      "id": "DA_InvestmentStrategyI",
+      "name": "投资策略 I"
+    },
+    {
+      "id": "DA_GroupHugII",
+      "name": "拥抱 II"
+    },
+    {
+      "id": "DA_ChallengersGrace",
+      "name": "挑战者的优雅"
+    },
+    {
+      "id": "DA_Pilfer",
+      "name": "挖角"
+    },
+    {
+      "id": "DA_SpiritOfRedemption",
+      "name": "救赎盔甲"
+    },
+    {
+      "id": "DA_Epoch",
+      "name": "新纪元"
+    },
+    {
+      "id": "DA_EpochPlus",
+      "name": "新纪元+"
+    },
+    {
+      "id": "DA_TimeSkip",
+      "name": "时间跳跃"
+    },
+    {
+      "id": "DA_CelestialBlessingII",
+      "name": "星界赐福 II"
+    },
+    {
+      "id": "DA_ItsMeBaby",
+      "name": "是我，宝贝！"
+    },
+    {
+      "id": "DA_Staffsmith",
+      "name": "杖之工匠"
+    },
+    {
+      "id": "DA_HealingOrbsII",
+      "name": "治疗法球 II"
+    },
+    {
+      "id": "DA_CryMeARiver",
+      "name": "泪流成河"
+    },
+    {
+      "id": "DA_ClearMind",
+      "name": "清晰头脑"
+    },
+    {
+      "id": "DA_CaretakersFavor",
+      "name": "游神的眷顾"
+    },
+    {
+      "id": "DA_CyberneticUplink_Gold",
+      "name": "源计划上行链路"
+    },
+    {
+      "id": "DA_CyberneticImplants_Gold",
+      "name": "源计划植入"
+    },
+    {
+      "id": "DA_PandorasItemsII",
+      "name": "潘朵拉的装备 II"
+    },
+    {
+      "id": "DA_SeraphimsStaff",
+      "name": "炽天使之拥"
+    },
+    {
+      "id": "DA_ExplosiveGrowth",
+      "name": "爆炸式增长"
+    },
+    {
+      "id": "DA_ExplosiveGrowthPlus",
+      "name": "爆炸式增长+"
+    },
+    {
+      "id": "DA_Slammin",
+      "name": "物尽其用"
+    },
+    {
+      "id": "DA_SlamminPlus",
+      "name": "物尽其用+"
+    },
+    {
+      "id": "DA_SoloLeveling",
+      "name": "独自升级"
+    },
+    {
+      "id": "DA_GlassCannon_Gold",
+      "name": "玻璃大炮 II"
+    },
+    {
+      "id": "DA_JeweledLotus_I",
+      "name": "珠光莲花 I"
+    },
+    {
+      "id": "DA_BirthdayReunion",
+      "name": "生日聚会"
+    },
+    {
+      "id": "DA_ElectrochargeII",
+      "name": "电火花 II"
+    },
+    {
+      "id": "DA_HardBargain",
+      "name": "砍价高手"
+    },
+    {
+      "id": "DA_18_WeightTheWorth",
+      "name": "等待得值"
+    },
+    {
+      "id": "DA_VerticalityII",
+      "name": "纵深 II"
+    },
+    {
+      "id": "DA_ClutteredMind",
+      "name": "纷乱头脑"
+    },
+    {
+      "id": "DA_BronzeForLifeI",
+      "name": "终身黄铜 I"
+    },
+    {
+      "id": "DA_PatientStudy",
+      "name": "耐心学习"
+    },
+    {
+      "id": "DA_Hustler",
+      "name": "花到上头"
+    },
+    {
+      "id": "DA_HeroicGrabBag",
+      "name": "英勇福袋"
+    },
+    {
+      "id": "DA_HeroicGrabBagPlus",
+      "name": "英勇福袋+"
+    },
+    {
+      "id": "DA_HeroicGrabBagPlusPlus",
+      "name": "英勇福袋++"
+    },
+    {
+      "id": "DA_GainGold",
+      "name": "获得21金币"
+    },
+    {
+      "id": "DA_SpreadingRoots",
+      "name": "蔓延之根"
+    },
+    {
+      "id": "DA_SpreadingRootsPlus",
+      "name": "蔓延之根+"
+    },
+    {
+      "id": "DA_CognitiveOverload",
+      "name": "认知过载"
+    },
+    {
+      "id": "DA_MoneyHungry_NotBroken",
+      "name": "贪财"
+    },
+    {
+      "id": "DA_MoneyHungryPlus",
+      "name": "贪财+"
+    },
+    {
+      "id": "DA_CapitalGainsII",
+      "name": "资本利得 II"
+    },
+    {
+      "id": "DA_CookingPot",
+      "name": "金色炊具"
+    },
+    {
+      "id": "DA_TheGoldenDragon",
+      "name": "金霖龙"
+    },
+    {
+      "id": "DA_GildedSteel",
+      "name": "镀金钢铁"
+    },
+    {
+      "id": "DA_MaxBuild",
+      "name": "顶尖构筑"
+    },
+    {
+      "id": "DA_Ascension",
+      "name": "飞升"
+    },
+    {
+      "id": "DA_AdvancedLoan",
+      "name": "高级贷款"
+    },
+    {
+      "id": "DA_AdvancedLoanPlus",
+      "name": "高级贷款+"
+    },
+    {
+      "id": "DA_MagicRoll",
+      "name": "魔法投掷"
+    },
+    {
+      "id": "DA_GoldDestiny",
+      "name": "黄金命运"
+    },
+    {
+      "id": "DA_GoldDestinyPlus",
+      "name": "黄金命运+"
+    },
+    {
+      "id": "DA_WovenMagic",
+      "name": "纺织魔法"
+    },
+    {
+      "id": "TFT11_Augment_Reinfourcement",
+      "name": "四费增援"
+    },
+    {
+      "id": "DA_18_LuxAugmentII",
+      "name": "创世神"
+    },
+    {
+      "id": "DA_OneBuffTwoBuff",
+      "name": "1个霸符，2个霸符"
+    },
+    {
+      "id": "DA_UpwardMobility",
+      "name": "上进心"
+    },
+    {
+      "id": "DA_WorththeWaitII",
+      "name": "值得等待 II"
+    },
+    {
+      "id": "DA_RadiantRelic",
+      "name": "光明圣物"
+    },
+    {
+      "id": "DA_RadiantRascal",
+      "name": "光明无赖"
+    },
+    {
+      "id": "DA_Coronation",
+      "name": "加冕礼"
+    },
+    {
+      "id": "DA_LevelUp",
+      "name": "升级咯！"
+    },
+    {
+      "id": "DA_Min_Max",
+      "name": "可大可小"
+    },
+    {
+      "id": "DA_HoldTheLine",
+      "name": "坚守防线"
+    },
+    {
+      "id": "DA_ComponentQuest",
+      "name": "基础装备大冒险"
+    },
+    {
+      "id": "DA_ShoppingSpree",
+      "name": "大买特买"
+    },
+    {
+      "id": "DA_DeadlierCaps",
+      "name": "更要命的帽子"
+    },
+    {
+      "id": "DA_DeadlierBlades",
+      "name": "更要命的战刃"
+    },
+    {
+      "id": "DA_SwordOverflow",
+      "name": "大剑溢流"
+    },
+    {
+      "id": "DA_GiantAndMighty",
+      "name": "大而有力"
+    },
+    {
+      "id": "DA_LuxurySubscription",
+      "name": "奢侈品订购"
+    },
+    {
+      "id": "DA_HedgeFund",
+      "name": "对冲基金"
+    },
+    {
+      "id": "DA_LuckyGloves",
+      "name": "幸运手套"
+    },
+    {
+      "id": "DA_LuckyGlovesPlus",
+      "name": "幸运手套+"
+    },
+    {
+      "id": "DA_NestingDollsPlus",
+      "name": "弈子套娃"
+    },
+    {
+      "id": "DA_NestingDollsPlusPlus",
+      "name": "弈子套娃"
+    },
+    {
+      "id": "DA_ExpectedUnexpectedness",
+      "name": "意料之中的意外"
+    },
+    {
+      "id": "DA_InvestedPlus",
+      "name": "投资+"
+    },
+    {
+      "id": "DA_InvestedPlusPlus",
+      "name": "投资++"
+    },
+    {
+      "id": "DA_InvestmentStrategy",
+      "name": "投资策略 II"
+    },
+    {
+      "id": "DA_MoneyMonsoon",
+      "name": "摇钱树"
+    },
+    {
+      "id": "DA_CelestialBlessingIII",
+      "name": "星界赐福 III"
+    },
+    {
+      "id": "DA_PrismaticDestiny",
+      "name": "棱彩命运"
+    },
+    {
+      "id": "DA_PrismaticDestinyPlus",
+      "name": "棱彩命运+"
+    },
+    {
+      "id": "DA_BuildABud",
+      "name": "来个好伙计！"
+    },
+    {
+      "id": "DA_PrismaticTicket",
+      "name": "棱彩门票"
+    },
+    {
+      "id": "DA_Retribution",
+      "name": "正义报复"
+    },
+    {
+      "id": "DA_WeStickTogether",
+      "name": "水乳交融"
+    },
+    {
+      "id": "DA_WandOverflow",
+      "name": "法杖溢流"
+    },
+    {
+      "id": "DA_LivingForge",
+      "name": "活体锻炉"
+    },
+    {
+      "id": "DA_CallToChaos",
+      "name": "混沌召唤"
+    },
+    {
+      "id": "DA_PandorasItemsIII",
+      "name": "潘朵拉的装备 III"
+    },
+    {
+      "id": "DA_Flexible",
+      "name": "灵活摇摆"
+    },
+    {
+      "id": "DA_SoulAwakening",
+      "name": "灵魂唤醒"
+    },
+    {
+      "id": "DA_BuriedTreasuresIII",
+      "name": "珍藏财宝"
+    },
+    {
+      "id": "DA_JeweledLotus_II",
+      "name": "珠光莲花 II"
+    },
+    {
+      "id": "DA_SweetTreats",
+      "name": "甜点"
+    },
+    {
+      "id": "DA_BirthdayPresent",
+      "name": "生日礼物"
+    },
+    {
+      "id": "DA_BaronsLair",
+      "name": "男爵幻域"
+    },
+    {
+      "id": "DA_HardCommit",
+      "name": "硬性承诺"
+    },
+    {
+      "id": "DA_ForgedInStrength",
+      "name": "神力天铸"
+    },
+    {
+      "id": "DA_BandOfThievesII",
+      "name": "窃贼帮派 II"
+    },
+    {
+      "id": "DA_BandOfThievesIIPlus",
+      "name": "窃贼帮派 II+"
+    },
+    {
+      "id": "DA_BandOfThievesIIPlusPlus",
+      "name": "窃贼帮派 II++"
+    },
+    {
+      "id": "DA_VerticalityIII",
+      "name": "纵深 III"
+    },
+    {
+      "id": "DA_BronzeForLifeII",
+      "name": "终身黄铜 II"
+    },
+    {
+      "id": "DA_ComebackStory",
+      "name": "绝境反击"
+    },
+    {
+      "id": "DA_TonsOfStatsII",
+      "name": "成吨的属性！"
+    },
+    {
+      "id": "DA_TraitLadder",
+      "name": "拼盘天梯"
+    },
+    {
+      "id": "DA_TheTraitTree",
+      "name": "羁绊树"
+    },
+    {
+      "id": "DA_TheTraitTreePlus",
+      "name": "羁绊树+"
+    },
+    {
+      "id": "DA_BeltOverflow",
+      "name": "腰带溢流"
+    },
+    {
+      "id": "DA_CursedCrown",
+      "name": "诅咒冠冕"
+    },
+    {
+      "id": "DA_CommerceCore",
+      "name": "贸易中心"
+    },
+    {
+      "id": "DA_GoingLong",
+      "name": "遥遥领先"
+    },
+    {
+      "id": "DA_GoldenEgg",
+      "name": "金蛋"
+    },
+    {
+      "id": "DA_ShimmerscaleEssence",
+      "name": "金鳞精粹"
+    },
+    {
+      "id": "DA_TacticiansKitchen",
+      "name": "锅铲厨房"
+    },
+    {
+      "id": "DA_NestingAnvils",
+      "name": "锻造器套娃"
+    },
+    {
+      "id": "DA_NestingAnvilsPlus",
+      "name": "锻造器套娃+"
+    },
+    {
+      "id": "DA_UrfsGrabBag",
+      "name": "阿福的百宝袋"
+    },
+    {
+      "id": "DA_GoldenGamble",
+      "name": "黄金赌约"
+    },
+    {
+      "id": "DA_GoldenGamblePlus",
+      "name": "黄金赌约+"
+    },
+    {
+      "id": "DA_GoldenGamblePlusPlus",
+      "name": "黄金赌约++"
+    },
+    {
+      "id": "TFT9_Augment_RollTheDice",
+      "name": "交给运气"
+    }
+  ],
+  "comps": [
+    {
+      "id": "16294",
+      "name": "黑暗仪式伊莉丝",
+      "tier": "S",
+      "siteOrder": 1,
+      "siteScore": 500,
+      "difficulty": 2,
+      "tags": [
+        "6/7级追三星"
+      ],
+      "coreHero": "DA_18_Elise",
+      "requiredAugments": [
+        "DA_18_CovenTraitAugment_LootToAP"
+      ],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Elise",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GuinsoosRageblade",
+            "DA_TitansResolve"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Morgana",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_Morellonomicon",
+            "DA_VoidStaff"
+          ]
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Cassiopeia",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_Morellonomicon",
+            "DA_SpearOfShojin",
+            "DA_VoidStaff"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.6787,
+        "top4Pct": 64.2,
+        "winPct": 27.6,
+        "pickRateRaw": 0.23,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16294?season=18"
+    },
+    {
+      "id": "16265",
+      "name": "峡谷野怪苍蓝哨戒",
+      "tier": "S",
+      "siteOrder": 2,
+      "siteScore": 499,
+      "difficulty": 1,
+      "tags": [
+        "6/7级追三星"
+      ],
+      "coreHero": "DA_18_Sentry",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_Riftbeast18"
+      ],
+      "units": [
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Scuttlecrab18",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_ElderDragon",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_Deathblade",
+            "DA_InfinityEdge",
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Sentry",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_ArchangelsStaff",
+            "DA_ArchangelsStaff",
+            "DA_ArchangelsStaff"
+          ]
+        },
+        {
+          "hero": "DA_Cinderling18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.1347,
+        "top4Pct": 56.1,
+        "winPct": 14,
+        "pickRateRaw": 1.21,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16265?season=18"
+    },
+    {
+      "id": "16288",
+      "name": "主宰婕拉",
+      "tier": "S",
+      "siteOrder": 3,
+      "siteScore": 498,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Zyra",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_Juggernaut18"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Yorick",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sejuani",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Maokai",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Nidalee18_AP",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ArchangelsStaff",
+            "DA_GuinsoosRageblade",
+            "DA_JeweledGauntlet"
+          ]
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ArchangelsStaff",
+            "DA_SpearOfShojin",
+            "DA_VoidStaff"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.6416,
+        "top4Pct": 47.1,
+        "winPct": 10,
+        "pickRateRaw": 0.9,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16288?season=18"
+    },
+    {
+      "id": "16242",
+      "name": "远古巨龙拉露恩95",
+      "tier": "S",
+      "siteOrder": 4,
+      "siteScore": 497,
+      "difficulty": 3,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_ElderDragon",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_ProtectorsVow",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Alistar",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Alune",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_ArchangelsStaff",
+            "DA_JeweledGauntlet",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_ElderDragon",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_LastWhisper",
+            "DA_SteraksGage"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.0477,
+        "top4Pct": 57.8,
+        "winPct": 20.8,
+        "pickRateRaw": 0.14,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16242?season=18"
+    },
+    {
+      "id": "16312",
+      "name": "四狂战狼人",
+      "tier": "A",
+      "siteOrder": 5,
+      "siteScore": 396,
+      "difficulty": 1,
+      "tags": [
+        "6级追三星"
+      ],
+      "coreHero": "DA_18_Warwick",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Slayer"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Warwick",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_HandOfJustice",
+            "DA_InfinityEdge",
+            "DA_Quicksilver"
+          ]
+        },
+        {
+          "hero": "DA_18_Elise",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_18_EmblemSlayer",
+            "DA_GuinsoosRageblade",
+            "DA_TitansResolve"
+          ]
+        },
+        {
+          "hero": "DA_18_KhaZix",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_HandOfJustice",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Murkwolf18",
+          "cost": 2,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Azir",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Soraka",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.6706,
+        "top4Pct": 68.1,
+        "winPct": 11.4,
+        "pickRateRaw": 0.18,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16312?season=18"
+    },
+    {
+      "id": "16314",
+      "name": "峡谷野怪峰喙鸟",
+      "tier": "A",
+      "siteOrder": 6,
+      "siteScore": 395,
+      "difficulty": 1,
+      "tags": [
+        "6/7级追三星"
+      ],
+      "coreHero": "DA_CrimsonRaptor18",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_Riftbeast18"
+      ],
+      "units": [
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Scuttlecrab18",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Sentry",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_ArchangelsStaff"
+          ]
+        },
+        {
+          "hero": "DA_Gromp18_AP",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Cinderling18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_CrimsonRaptor18",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.9615,
+        "top4Pct": 59.7,
+        "winPct": 14.9,
+        "pickRateRaw": 0.95,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16314?season=18"
+    },
+    {
+      "id": "16270",
+      "name": "野兽之灵希维尔",
+      "tier": "A",
+      "siteOrder": 7,
+      "siteScore": 394,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Sivir",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Malphite",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Crownguard",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_RekSai",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Nidalee18_AP",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_JeweledGauntlet",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_RedBuff",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_KogMaw18_AD",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Cinderling18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 5.5765,
+        "top4Pct": 29.1,
+        "winPct": 5.3,
+        "pickRateRaw": 0.01,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16270?season=18"
+    },
+    {
+      "id": "16234",
+      "name": "召唤师婕拉",
+      "tier": "A",
+      "siteOrder": 8,
+      "siteScore": 393,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Zyra",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Summoner"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Malphite",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Yorick",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Fiddlesticks18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Soraka",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ezreal",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Azir",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_HextechGunblade",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemExecutioner",
+            "DA_SpearOfShojin",
+            "DA_VoidStaff"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.89,
+        "top4Pct": 42.6,
+        "winPct": 10.1,
+        "pickRateRaw": 0.19,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16234?season=18"
+    },
+    {
+      "id": "16236",
+      "name": "重装战士厄斐琉斯",
+      "tier": "A",
+      "siteOrder": 9,
+      "siteScore": 392,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Aphelios",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemVanguard"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_SunfireCape"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_ProtectorsVow",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Brambleback18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_CrimsonRaptor18",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.596,
+        "top4Pct": 48.8,
+        "winPct": 9.4,
+        "pickRateRaw": 0.38,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16236?season=18"
+    },
+    {
+      "id": "16282",
+      "name": "远古巨龙艾希95",
+      "tier": "A",
+      "siteOrder": 10,
+      "siteScore": 391,
+      "difficulty": 3,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_ElderDragon",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Crownguard",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_ElderDragon",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemHunter",
+            "DA_InfinityEdge",
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ashe",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemInferno",
+            "DA_RedBuff",
+            "DA_SpearOfShojin"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.9516,
+        "top4Pct": 59,
+        "winPct": 21.8,
+        "pickRateRaw": 0.11,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16282?season=18"
+    },
+    {
+      "id": "16278",
+      "name": "主宰凯特琳",
+      "tier": "A",
+      "siteOrder": 11,
+      "siteScore": 390,
+      "difficulty": 1,
+      "tags": [
+        "6级追三星"
+      ],
+      "coreHero": "DA_18_Caitlyn",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_Juggernaut18"
+      ],
+      "units": [
+        {
+          "hero": "DA_Scuttlecrab18",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemHunter"
+          ]
+        },
+        {
+          "hero": "DA_18_Sejuani",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Cinderling18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ashe",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_LastWhisper",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Caitlyn",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_Deathblade",
+            "DA_Deathblade",
+            "DA_GuinsoosRageblade"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.8026,
+        "top4Pct": 65,
+        "winPct": 12.8,
+        "pickRateRaw": 0.14,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16278?season=18"
+    },
+    {
+      "id": "16291",
+      "name": "裁决卡兹克",
+      "tier": "A",
+      "siteOrder": 12,
+      "siteScore": 389,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_KhaZix",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemExecutioner"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Ornn",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Fiddlesticks18",
+          "cost": 3,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemExecutioner"
+          ]
+        },
+        {
+          "hero": "DA_18_KhaZix",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_HandOfJustice",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Ezreal",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Azir",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.0911,
+        "top4Pct": 58,
+        "winPct": 14,
+        "pickRateRaw": 0.23,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16291?season=18"
+    },
+    {
+      "id": "16241",
+      "name": "远古巨龙德莱文95",
+      "tier": "A",
+      "siteOrder": 13,
+      "siteScore": 388,
+      "difficulty": 3,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_ElderDragon",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Maokai",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_ElderDragon",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_LastWhisper",
+            "DA_SteraksGage"
+          ]
+        },
+        {
+          "hero": "DA_18_Ivern",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_Draven18",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.0034,
+        "top4Pct": 56.4,
+        "winPct": 26,
+        "pickRateRaw": 0.14,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16241?season=18"
+    },
+    {
+      "id": "16277",
+      "name": "魔岩巨兽厄斐琉斯",
+      "tier": "B",
+      "siteOrder": 14,
+      "siteScore": 287,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Aphelios",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Malphite",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Crownguard",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_RekSai",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Lux18_Base",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_CrimsonRaptor18",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.7809,
+        "top4Pct": 45.4,
+        "winPct": 7.5,
+        "pickRateRaw": 0.58,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16277?season=18"
+    },
+    {
+      "id": "16244",
+      "name": "地狱火希维尔",
+      "tier": "B",
+      "siteOrder": 15,
+      "siteScore": 286,
+      "difficulty": 3,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Sivir",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemInferno"
+      ],
+      "units": [
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Crownguard",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ashe",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemInferno",
+            "DA_RedBuff",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemInferno",
+            "DA_InfinityEdge",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Varus",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Lux18_Base",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.5079,
+        "top4Pct": 48.6,
+        "winPct": 15.8,
+        "pickRateRaw": 0.15,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16244?season=18"
+    },
+    {
+      "id": "16266",
+      "name": "神谕阿狸",
+      "tier": "B",
+      "siteOrder": 16,
+      "siteScore": 285,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Ahri",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemInvoker"
+      ],
+      "units": [
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Sett",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Morgana",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_Morellonomicon",
+            "DA_VoidStaff"
+          ]
+        },
+        {
+          "hero": "DA_Karma18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sentry",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_KogMaw18_AD",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ahri",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemInvoker",
+            "DA_JeweledGauntlet",
+            "DA_RabadonsDeathcap"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.7977,
+        "top4Pct": 43.1,
+        "winPct": 12.1,
+        "pickRateRaw": 0.06,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16266?season=18"
+    },
+    {
+      "id": "16222",
+      "name": "森林莲华凯尔",
+      "tier": "B",
+      "siteOrder": 17,
+      "siteScore": 284,
+      "difficulty": 1,
+      "tags": [
+        "4/5级追三星"
+      ],
+      "coreHero": "DA_18_Kayle",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Solar"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Sejuani",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Ornn",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Leona",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_SunfireCape"
+          ]
+        },
+        {
+          "hero": "DA_18_Kayle",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GiantSlayer",
+            "DA_GuinsoosRageblade",
+            "DA_JeweledGauntlet"
+          ]
+        },
+        {
+          "hero": "DA_18_Xayah",
+          "cost": 1,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_LeBlanc",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_NashorsTooth",
+            "DA_SpearOfShojin"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.7427,
+        "top4Pct": 46.1,
+        "winPct": 11.7,
+        "pickRateRaw": 0.37,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16222?season=18"
+    },
+    {
+      "id": "16276",
+      "name": "重装战士卡兹克",
+      "tier": "B",
+      "siteOrder": 18,
+      "siteScore": 283,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_KhaZix",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Vanguard"
+      ],
+      "units": [
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_NashorsTooth",
+            "DA_Quicksilver"
+          ]
+        },
+        {
+          "hero": "DA_18_KhaZix",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_HandOfJustice",
+            "DA_JeweledGauntlet"
+          ]
+        },
+        {
+          "hero": "DA_18_Alune",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_KogMaw18_AD",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.1892,
+        "top4Pct": 57.2,
+        "winPct": 12.9,
+        "pickRateRaw": 0.02,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16276?season=18"
+    },
+    {
+      "id": "16261",
+      "name": "重装战士凯特琳",
+      "tier": "B",
+      "siteOrder": 19,
+      "siteScore": 282,
+      "difficulty": 1,
+      "tags": [
+        "6级追三星"
+      ],
+      "coreHero": "DA_18_Caitlyn",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Vanguard"
+      ],
+      "units": [
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Elise",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GuinsoosRageblade",
+            "DA_TitansResolve"
+          ]
+        },
+        {
+          "hero": "DA_18_Ashe",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Tristana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_LastWhisper",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Caitlyn",
+          "cost": 2,
+          "stars": 3,
+          "items": [
+            "DA_Deathblade",
+            "DA_GuinsoosRageblade",
+            "DA_KrakensFury"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.5226,
+        "top4Pct": 51.4,
+        "winPct": 8.5,
+        "pickRateRaw": 0.07,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16261?season=18"
+    },
+    {
+      "id": "16313",
+      "name": "沙皇龙龟",
+      "tier": "B",
+      "siteOrder": 20,
+      "siteScore": 281,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_Azir",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Rammus",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Teemo",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Fiddlesticks18",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_SunfireCape"
+          ]
+        },
+        {
+          "hero": "DA_18_Veigar",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Morellonomicon",
+            "DA_SpearOfShojin",
+            "DA_VoidStaff"
+          ]
+        },
+        {
+          "hero": "DA_18_Soraka",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Azir",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_HextechGunblade",
+            "DA_RabadonsDeathcap"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 3.8128,
+        "top4Pct": 63.4,
+        "winPct": 14.7,
+        "pickRateRaw": 0.17,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16313?season=18"
+    },
+    {
+      "id": "16292",
+      "name": "神谕克格莫",
+      "tier": "C",
+      "siteOrder": 21,
+      "siteScore": 180,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_KogMaw18_AD",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Invoker"
+      ],
+      "units": [
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sett",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Morgana",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_Morellonomicon",
+            "DA_VoidStaff"
+          ]
+        },
+        {
+          "hero": "DA_KogMaw18_AD",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Teemo",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sentry",
+          "cost": 1,
+          "stars": 3,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.5959,
+        "top4Pct": 47.2,
+        "winPct": 11.8,
+        "pickRateRaw": 0.07,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16292?season=18"
+    },
+    {
+      "id": "16279",
+      "name": "永恒之森厄斐琉斯",
+      "tier": "C",
+      "siteOrder": 22,
+      "siteScore": 179,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Aphelios",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Elderwood"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Ornn",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Alistar",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Lillia",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemElderwood",
+            "DA_Evenshroud",
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Xayah",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ezreal",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_LastWhisper",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        },
+        {
+          "hero": "DA_18_Alune",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.4108,
+        "top4Pct": 51.3,
+        "winPct": 14.1,
+        "pickRateRaw": 0.18,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16279?season=18"
+    },
+    {
+      "id": "16264",
+      "name": "法师卡兹克",
+      "tier": "C",
+      "siteOrder": 23,
+      "siteScore": 178,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_KhaZix",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        null
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Rammus",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Ahri",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Fiddlesticks18",
+          "cost": 3,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Shen",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Soraka",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemSpellweaver"
+          ]
+        },
+        {
+          "hero": "DA_18_Lillia",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_KhaZix",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_HandOfJustice",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Cassiopeia",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_Morellonomicon",
+            "DA_SpearOfShojin",
+            "DA_VoidStaff"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.8366,
+        "top4Pct": 44.4,
+        "winPct": 6.9,
+        "pickRateRaw": 0.01,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16264?season=18"
+    },
+    {
+      "id": "16271",
+      "name": "迅捷射手厄斐琉斯",
+      "tier": "C",
+      "siteOrder": 24,
+      "siteScore": 177,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Aphelios",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemRapidfire"
+      ],
+      "units": [
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Crownguard",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_ProtectorsVow",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Brambleback18",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemRapidfire",
+            "DA_EdgeOfNight",
+            "DA_InfinityEdge"
+          ]
+        },
+        {
+          "hero": "DA_18_Varus",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Xayah",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_CrimsonRaptor18",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_Deathblade",
+            "DA_InfinityEdge",
+            "DA_KrakensFury"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.4337,
+        "top4Pct": 53.2,
+        "winPct": 8.9,
+        "pickRateRaw": 0.03,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16271?season=18"
+    },
+    {
+      "id": "16235",
+      "name": "灵魂莲华阿狸",
+      "tier": "C",
+      "siteOrder": 25,
+      "siteScore": 176,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Ahri",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Blossom"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Sett",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemBlossom"
+          ]
+        },
+        {
+          "hero": "DA_18_Yorick",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Karma18",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ashe",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ahri",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_JeweledGauntlet",
+            "DA_NashorsTooth",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemBlossom",
+            "DA_InfinityEdge",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_Lux18_Base",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.7868,
+        "top4Pct": 42,
+        "winPct": 16.7,
+        "pickRateRaw": 0.15,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16235?season=18"
+    },
+    {
+      "id": "16258",
+      "name": "婕拉阿狸",
+      "tier": "C",
+      "siteOrder": 26,
+      "siteScore": 175,
+      "difficulty": 2,
+      "tags": [
+        "速升8级"
+      ],
+      "coreHero": "DA_18_Zyra",
+      "requiredAugments": [],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Malphite",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Amumu18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Yorick",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Kennen",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Ahri",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemBlackthorn",
+            "DA_JeweledGauntlet",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Soraka",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Azir",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_HextechGunblade",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Zyra",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_18_EmblemBlackthorn",
+            "DA_JeweledGauntlet",
+            "DA_VoidStaff"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.8623,
+        "top4Pct": 42.2,
+        "winPct": 11.5,
+        "pickRateRaw": 0.03,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16258?season=18"
+    },
+    {
+      "id": "16253",
+      "name": "魔战士易",
+      "tier": "D",
+      "siteOrder": 27,
+      "siteScore": 74,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_MasterYi_AD",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Adaptor"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Yorick",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Sett",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_MasterYi_AD",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_18_EmblemBrawler",
+            "DA_GuinsoosRageblade",
+            "DA_TitansResolve"
+          ]
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Nidalee18_AP",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_KogMaw18_AD",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_InfinityEdge",
+            "DA_RedBuff",
+            "DA_SpearOfShojin"
+          ]
+        }
+      ],
+      "stats": {
+        "averagePlace": 5.0657,
+        "top4Pct": 40.2,
+        "winPct": 5.2,
+        "pickRateRaw": 0.01,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16253?season=18"
+    },
+    {
+      "id": "16260",
+      "name": "世纪和解卡兹克",
+      "tier": "D",
+      "siteOrder": 28,
+      "siteScore": 73,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_KhaZix",
+      "requiredAugments": [
+        "DA_18_RivalsAugment"
+      ],
+      "unresolvedConditions": [],
+      "units": [
+        {
+          "hero": "DA_18_Hecarim",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Rengar",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_GuinsoosRageblade",
+            "DA_TitansResolve"
+          ]
+        },
+        {
+          "hero": "DA_18_KhaZix",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_EdgeOfNight",
+            "DA_HandOfJustice",
+            "DA_RabadonsDeathcap"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Taric18",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Sentinel18",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.856,
+        "top4Pct": 43.4,
+        "winPct": 7.8,
+        "pickRateRaw": 0.03,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16260?season=18"
+    },
+    {
+      "id": "16218",
+      "name": "黑荆棘维迦",
+      "tier": "D",
+      "siteOrder": 29,
+      "siteScore": 72,
+      "difficulty": 2,
+      "tags": [
+        "4/5级追三星"
+      ],
+      "coreHero": "DA_18_Veigar",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_EmblemFloraFatalis"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_RekSai",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_18_EmblemSprykin"
+          ]
+        },
+        {
+          "hero": "DA_18_Kobuko",
+          "cost": 1,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Rammus",
+          "cost": 3,
+          "stars": null,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_GargoyleStoneplate",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Fiddlesticks18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Krug18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Veigar",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_BlueBuff",
+            "DA_JeweledGauntlet",
+            "DA_NashorsTooth"
+          ]
+        },
+        {
+          "hero": "DA_18_Teemo",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 5.8222,
+        "top4Pct": 24,
+        "winPct": 1.8,
+        "pickRateRaw": 0.01,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16218?season=18"
+    },
+    {
+      "id": "16223",
+      "name": "日蚀骑士韦鲁斯",
+      "tier": "D",
+      "siteOrder": 30,
+      "siteScore": 71,
+      "difficulty": 1,
+      "tags": [
+        "4/5级追三星"
+      ],
+      "coreHero": "DA_18_Varus",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        "DA_18_Solar"
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Sejuani",
+          "cost": 2,
+          "stars": 3,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Diana",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Shen",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Leona",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_Evenshroud"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Varus",
+          "cost": 1,
+          "stars": 3,
+          "items": [
+            "DA_Deathblade",
+            "DA_InfinityEdge",
+            "DA_SpearOfShojin"
+          ]
+        },
+        {
+          "hero": "DA_18_Aphelios",
+          "cost": 4,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Kayle",
+          "cost": 2,
+          "stars": 3,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 4.3577,
+        "top4Pct": 53.9,
+        "winPct": 12,
+        "pickRateRaw": 0.05,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16223?season=18"
+    },
+    {
+      "id": "16230",
+      "name": "花仙子小炮",
+      "tier": "D",
+      "siteOrder": 31,
+      "siteScore": 70,
+      "difficulty": 2,
+      "tags": [
+        "7/8级追三星"
+      ],
+      "coreHero": "DA_18_Tristana",
+      "requiredAugments": [],
+      "unresolvedConditions": [
+        null
+      ],
+      "units": [
+        {
+          "hero": "DA_18_Rammus",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GargoyleStoneplate",
+            "DA_SpiritVisage",
+            "DA_WarmogsArmor"
+          ]
+        },
+        {
+          "hero": "DA_18_Lillia",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_ProtectorsVow"
+          ]
+        },
+        {
+          "hero": "DA_18_Rakan",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Alistar",
+          "cost": 2,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_Vi18",
+          "cost": 3,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_GnarSmall",
+          "cost": 5,
+          "stars": null,
+          "items": []
+        },
+        {
+          "hero": "DA_18_Tristana",
+          "cost": 3,
+          "stars": 3,
+          "items": [
+            "DA_GuinsoosRageblade",
+            "DA_HextechGunblade",
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Sivir",
+          "cost": 4,
+          "stars": null,
+          "items": [
+            "DA_LastWhisper"
+          ]
+        },
+        {
+          "hero": "DA_18_Xayah",
+          "cost": 1,
+          "stars": null,
+          "items": []
+        }
+      ],
+      "stats": {
+        "averagePlace": 5.4466,
+        "top4Pct": 31.6,
+        "winPct": 5.9,
+        "pickRateRaw": 0.02,
+        "sampleSize": null
+      },
+      "sourceUrl": "https://jcc.datatft.com/h5/lineup/16230?season=18"
+    }
+  ]
+}

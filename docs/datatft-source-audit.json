@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "homepage": "https://www.datatft.com/",
+  "homepage_status": 200,
+  "robots_status": 200,
+  "robots_text": "User-agent: *\nAllow: /\n\nDisallow: /admin\nDisallow: /login\nDisallow: /tip/edit\n\nSitemap: https://www.datatft.com/sitemap.xml\n",
+  "public_asset": "https://www.datatft.com/assets/h5-data-cn-18-C8KhxreH.json",
+  "asset_status": 200,
+  "counts": {
+    "heroes": 65,
+    "equipment_entries": 151,
+    "augment_entries": 256
+  },
+  "database_update_shanghai": "2026-10-12T22:37:24.696000+08:00",
+  "default_platform": "tft",
+  "jcc_entrypoint": "https://jcc.datatft.com/",
+  "ranking_api_host": "https://api.datatft.com",
+  "ranking_request_path_from_frontend": "/team/list",
+  "ranking_fields_observed_in_frontend": [
+    "place",
+    "top4",
+    "won",
+    "playRate"
+  ],
+  "ranking_response_retrieved": true,
+  "blocked_hosts": [],
+  "block_reason": null,
+  "limits": [
+    "Static database is not lineup performance statistics",
+    "Frontend fields do not establish sample definitions, update cadence or statistical reliability",
+    "robots.txt Allow does not by itself grant commercial reuse rights",
+    "Must verify JCC mode and patch before using ranking data",
+    "Read public browser assets only; no authentication bypass performed"
+  ],
+  "ranking_http_status": 200,
+  "ranking_platform_header": "jcc",
+  "ranking_filters": {
+    "season": "18",
+    "tier": "grandmaster",
+    "time": 5
+  },
+  "ranking_lineup_count": 31,
+  "ranking_total_count_raw": "691832",
+  "last_verified_at": "2026-10-13T13:06:24.736Z",
+  "ranking_limits": [
+    "Exact patch unknown",
+    "Meaning of time=5 not confirmed",
+    "Per-lineup sample sizes missing",
+    "Total count and pickRate denominators not established",
+    "Rating and performance statistics must remain separate"
+  ]
+}
